@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top 10 Maiores Jogadores</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-screen">
+    <div class="card">
+      <h1>Top 10 Maiores Jogadores da História</h1>
+      <p class="instructions">Digite o nome do jogador correto e revele o item na lista. Você tem 12 chances.</p>
+      <div id="status" class="status">Digite o nome de um jogador oculto e comece a revelar a lista.</div>
+      <div id="attempts" class="attempts">12 chances restantes</div>
+      <div class="guess-panel">
+        <input id="guessInput" type="text" placeholder="Digite o termo do jogador..." autocomplete="off">
+        <button id="guessButton" class="guess-button">Chutar</button>
+      </div>
+      <div id="player-list" class="player-list"></div>
+      <button id="resetButton" class="reset-button">Novo jogo</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
